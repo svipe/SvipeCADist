@@ -1,0 +1,11 @@
+framework module SvipeCA {
+  umbrella header "SvipeCA.h"
+
+  export *
+  module * { export * }
+}
+
+module SvipeCA.Swift {
+    header "SvipeCA-Swift.h"
+    requires objc
+}
