@@ -3,9 +3,9 @@ Pod::Spec.new do |s|
   s.version  = '0.0.1'
   s.license  = 'All Rights Reserved'
   s.summary  = 'To auth with backend'
-  s.homepage = 'https://github.com/svipe/SvipeCA'
+  s.homepage = 'https://gitlab.com/svipe/frontend-ios/SvipeCA'
   s.author   = 'Svipe AB'
-  s.source   = { :git => 'https://github.com/svipe/SvipeCA.git', :tag => s.version }
+  s.source   = { :git => 'https://gitlab.com/svipe/frontend-ios/SvipeCA.git', :tag => s.version }
   s.requires_arc = true
   s.source_files = 'SvipeCA/**/*.{h,m,swift,mlmodel}'
   s.resources = "SvipeCA/**/*.{storyboard,xib,xcassets,strings,json,xml,pem,traineddata}"
